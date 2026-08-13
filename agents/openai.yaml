@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portfolio Builder"
+  short_description: "从简历与作品资料生成可预览确认的作品集网站"
+  default_prompt: "Use $portfolio-builder to generate a portfolio website from my resume and project images."

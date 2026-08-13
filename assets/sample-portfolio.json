@@ -1,0 +1,14 @@
+{
+  "person": {
+    "name": "Lin Chen",
+    "role": "Visual Designer & Illustrator",
+    "hero_intro": "A visual designer working across identity, editorial, and digital experiences.",
+    "about_title": "Make ideas visible.",
+    "about_paragraphs": ["I use image, typography, and interaction to make work that feels clear and human."],
+    "skills": ["Figma", "Illustrator", "Photoshop"],
+    "email": "lin@example.com",
+    "socials": [{"label": "GitHub", "url": "https://github.com"}]
+  },
+  "experiences": [{"period": "2025.04 — Now", "category": "Brand design", "organization": "Example Studio", "role": "Visual Designer", "description": "Designed identity systems and campaign assets for culture-led brands."}],
+  "projects": [{"title": "Editorial Poster Series", "category": "Graphic design", "description": "A playful poster system for a contemporary culture festival."}]
+}

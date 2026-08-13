@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="nav" id="nav"><div class="container nav__inner"><a class="nav__logo" href="#home">GY<span>.</span></a><ul class="nav__links"><li><a href="#about">关于</a></li><li><a href="#experience">经历</a></li><li><a href="#work">作品</a></li><li><a href="#contact">联系</a></li></ul></div></nav>
+  <main>
+    <section class="hero" id="home"><div class="hero__content"><p class="hero__eyebrow" id="role"></p><h1 class="hero__title">Hi, I'm <em id="name"></em><span class="dot">.</span></h1><p class="hero__desc" id="heroIntro"></p><div class="hero__actions"><a class="btn btn--primary" href="#work">查看作品</a><a class="btn btn--ghost" href="#contact">联系我</a></div></div><div class="hero__scroll-hint"><span>向下滚动</span><div class="scroll-line"></div></div></section>
+    <section class="about section" id="about"><div class="container"><div class="section__label">关于我</div><div class="about__grid"><div class="about__text"><h2 class="section__title" id="aboutTitle"></h2><div id="aboutParagraphs"></div><div class="about__skills" id="skills"></div></div><div class="about__photo"><div class="photo-placeholder"><img src="images/placeholder.svg" alt="个人肖像" class="about__photo-img" /></div></div></div></div></section>
+    <section class="experience section" id="experience"><div class="container"><div class="section__label">经历</div><h2 class="section__title">Work <em>Experience</em></h2><div class="exp__list" id="experiences"></div></div></section>
+    <section class="work section" id="work"><div class="container"><div class="section__label">作品集</div><h2 class="section__title">Selected <em>Works</em></h2><div class="filter" id="filter"></div><div class="work__grid" id="projects"></div></div></section>
+    <section class="contact section" id="contact"><div class="container"><div class="section__label">联系我</div><div class="contact__inner"><h2 class="contact__title">有项目合作<br />或者只是想打个招呼？</h2><p class="contact__sub">我随时欢迎新的合作机会与创意交流。</p><a class="btn btn--primary btn--lg" id="email">发送邮件</a><div class="contact__social" id="socials"></div></div></div></section>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer__content"><span id="copyright"></span></div></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="js/portfolio.js"></script>
+</body>
+</html>
